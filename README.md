@@ -23,7 +23,7 @@ Python, Tkinter, Tk, 2 APIs ([yfinance](https://github.com/ranaroussi/yfinance) 
 ### :point_right: Files? 
 The ipynb notebook shows some experimentation with the APIs. Had to mix-match and format values from the pool of results from yfinance and for what I wanted to show - calculate some [**time delta**](https://docs.python.org/3/library/datetime.html#timedelta-objects) objects. Fetching monetary data for the latest quarter is easy but getting the historical stock performance for the **exact same quarter** (could be Q1, Q2, Q3, or Annual) is tricky. More details below. The other two files are the main GUI files for the opening window and the tracker view (as per screenshots). 
 
-### :point_right: Quarter disparity problem and a fix: 
+### :point_right: Issues arriving from quarter disparity and fixes
 #### What is Q1 for company X could be different for company Y because of the difference in the start and end times of their fiscal years, so a fixed definition of a quarter wouldn't be possible for all companies and I had to get creative.
 
 <ol>
